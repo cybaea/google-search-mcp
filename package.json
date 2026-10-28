@@ -1,7 +1,7 @@
 {
   "name": "@cybaea/gemini-agent-mcp",
-  "version": "2.0.0",
-  "description": "Advanced AI agent MCP server with Search, URL Context, and Code Execution via Gemini",
+  "version": "3.0.0",
+  "description": "AI agent MCP server with three tools — Web Search, URL Context, and Code Execution — via Gemini on Vertex AI",
   "type": "module",
   "main": "build/index.js",
   "bin": {
