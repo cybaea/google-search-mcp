@@ -1,6 +1,6 @@
 {
   "name": "@cybaea/gemini-agent-mcp",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "AI agent MCP server with three tools — Web Search, URL Context, and Code Execution — via Gemini on Vertex AI",
   "type": "module",
   "main": "build/index.js",
@@ -24,7 +24,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "test:integration": "node test/integration.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.46.0",
